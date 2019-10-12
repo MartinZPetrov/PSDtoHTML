@@ -18,22 +18,26 @@
     <div class="container-fluid white-dirty">
         <!-- HEADER -->
         <div class="row header">
-            <div class="col-md-10 offset-md-2 mr-5">
+            <div class="col-md-10 offset-md-2">
                 <header>
-                    <p id="waiting-for">WHAT ARE YOU WAITING FOR?</p>
-                    <h1>LET`S BE CREATIVE !</h1>
+                    <p id="waiting-for" class="offset-md-1 pl-5 ">WHAT ARE YOU WAITING FOR?</p>
+                    <h1 class="">LET`S BE CREATIVE !</h1>
 
-                    <div id="background-startup">
+                    <div id="background-startup" class="col-md-5">
                         <p>
                             <span id="start-up"> Startuprr </span> , NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS THEME
                         </p>
                     </div>
+                    <div class="d-flex">
+                        <p class="subtitle fancy">
 
-                    <p class="subtitle fancy">
-                        <img class="left-shape" src="assets/images/left-shapes.png" alt="" srcset="">
-                        START <span class="start-doing-that main-color"> DOING THAT</span>
-                        <img class="right-shape" src="assets/images/right-shapes.png" alt="" srcset="">
-                    </p>
+                            <img class="mb-1 align-self-center" src="assets/images/left-shapes.png" alt="" srcset="">
+                            <span class="start-doing-that main-color"> START <span class="header-doing-that">DOING
+                                    THAT</span> </span>
+                            <img class="mb-1 align-self-center" src="assets/images/right-shapes.png" alt="" srcset="">
+
+                        </p>
+                    </div>
                     <img id="scroll-icon" src="assets/images/scroll-icon.png"
                         class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
                         alt="">
@@ -44,18 +48,12 @@
         <!-- NAVBAR -->
         <div class="container">
             <div class="row mt-2">
-                <div class="col-md-4">
-                    <div class="d-flex">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-between">
                         <a class="navbar-brand" href="#">
                             <img src="assets/images/startuprr.png" id="logo" width="157" height="42" alt="">
                         </a>
-                    </div>
-
-                </div>
-                <div class="col-md-8">
-                    <div class="d-flex justify-content-around">
                         <nav class="navbar navbar-expand-lg navbar-light clearfix">
-
                             <div class=""></div>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
@@ -71,7 +69,7 @@
                                     <a class="nav-item nav-link hov" href="#">FEATURES</a>
                                     <a class="nav-item nav-link hov" href="#">MEGA MENU</a>
                                     <a class="nav-item nav-link hov " href="#">CONTACT</a>
-                                    <img id="active" src="assets/images/active.png"
+                                    <img src="assets/images/active.png"
                                         class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} align-self-center"
                                         alt="">
 
@@ -87,15 +85,14 @@
         <!-- WHAT`WE OFFER -->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="text-center">
-                    <p class="heading">
+                <div class="d-block">
+                    <p class="heading text-center">
+                        <img class="mb-1" src="assets/images/left-shapes.png" alt="" srcset="">
+                        WHAT WE <span class="what-we-offer main-color"> OFFER </span>
+                        <img class="mb-1" src="assets/images/right-shapes.png" alt="" srcset="">
 
-                        <img class="left-shape" src="assets/images/left-shapes.png" alt="" srcset="">
-                        WHAT WE <span class="main-color"> OFFER </span>
-
-                        <img class="right-shape" src="assets/images/right-shapes.png" alt="" srcset="">
-
-                        <p>We offer our clients the best services & solutions, this is our main services list</p>
+                    </p>
+                    <p>We offer our clients the best services & solutions, this is our main services list</p>
                 </div>
             </div>
             <div class="row">
@@ -149,14 +146,14 @@
         </div>
         <!-- MORE FEATURES -->
         <div class="row features black-section negative-margin">
-            <div class="col-md-12">
+            <div class="col-md-12 p-0">
                 <section class="section-features">
                     <div class="d-flex justify-content-center align-items-center">
                         <img class="img-fluid mr-3 mb-3" src="assets/images/left-shapes.png" alt="" srcset="">
-                        <p class="text-center text-white heading">AMAZING FEATURES </p>
+                        <p class="text-center text-white heading">AMAZING <span class="main-color"> FEATURES</span></p>
                         <img class="img-fluid ml-3 mb-3" src="assets/images/right-shapes.png" alt="" srcset="">
-                    </div>
 
+                    </div>
                     <p class="text-center">With unlimited features that we offer, we promise it’s possible to make
                         evrything impossible for your</p>
                 </section>
@@ -320,11 +317,11 @@
             <div class="col-md-12">
 
                 <p class="heading powerful mt-5">
-                    <img class="left-shape pt-1" src="assets/images/left-shapes.png" alt="" srcset="">
+                    <img class="pb-1" src="assets/images/left-shapes.png" alt="" srcset="">
                     SAMPLE
-                    <span class="main-color">
+                    <span class="sample-works-span main-color">
                         WORKS </span>
-                    <img class="left-shape pt-1" src="assets/images/right-shapes.png" alt="" srcset="">
+                    <img class="pb-1" src="assets/images/right-shapes.png" alt="" srcset="">
                 </p>
 
                 <p class="mb-5">Let’s take a look at some of the best of our works here, we love them and hope you too
@@ -361,19 +358,22 @@
                     works</button>
             </div>
         </div>
+
+        <!-- ICON BRIEFCASE -->
         <div class="row justify-content-center">
             <div>
                 <img id="briefcase-image" src="assets/images/iconbriefcase.png" alt="" srcset="">
             </div>
         </div>
 
+        <!-- FACTS -->
         <div class="row facts black-section text-center">
             <div class="col-md-12">
                 <section>
                     <div class="d-flex justify-content-center">
                         <img class="img-fluid mr-3 mb-3 align-self-center" src="assets/images/left-shapes.png" alt=""
                             srcset="">
-                        <p class="heading text-white">OUR POWERFUL SKILLS</p>
+                        <p class="heading text-white">COMPANY FACTS</p>
                         <img class="img-fluid ml-3 mb-3 align-self-center" src="assets/images/right-shapes.png" alt=""
                             srcset="">
                     </div>
@@ -425,35 +425,45 @@
                 </div>
             </div>
         </div>
-        <div class="row purchase-now background-main-color">
 
-            <div class="col-md-8">
-                <div class="d-flex justify-content-center align-items-center h-100 pt-3 font-weight-bold">
-                    <p class="">ARE YOU SATISFIED WITH UNLIMITED FEAUTURES THAT WE OFFER?</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-inline ">
-                    <button type="button" class="btn btn-primary font-weight-bold mt-4">PURCHASE IT NOW</button>
-                    <button type="button" class="btn btn-primary font-weight-bold mt-4">CONTACT US NOW </button>
+
+        <!-- PURCHASE-NOW -->
+        <div class="row purchase-now background-main-color">
+            <div class="container">
+                <div class="row h-100 ">
+                    <div class="col-md-8">
+                        <!-- <div class="d-flex justify-content-center align-items-center h-100 pt-3 "> -->
+                        <div class="d-flex h-100 ">
+                            <p class="satisfied font-weight-bold align-self-center m-0 p-1">ARE YOU SATISFIED WITH
+                                UNLIMITED FEAUTURES
+                                THAT WE OFFER?</p>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center justify-content-center h-100">
+                            <button type="button" class="btn-sm  btn-primary font-weight-bold">PURCHASE IT NOW</button>
+                            <button type="button" class="btn-sm  btn-primary font-weight-bold">CONTACT US NOW </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <!-- TEAM-MEMBERS -->
         <div class="container team-members">
             <div class="row justify-content-center">
                 <div class="col-md-1">
-                    <img src="assets/images/left.png" class="img-fluid" alt="">
+                    <img src="assets/images/left.png" class="img-fluid pt-2 hide-arrow" alt="">
                 </div>
                 <div class="col-md-10 text-center">
 
                     <div class="d-flex justify-content-center">
-                        <p class="heading sample-works main-color">
-                            <img class="image-fluid pb-1" src="assets/images/left-shapes.png" alt="" srcset="">
+                        <p class="heading main-color">
+                            <img class="img-fluid pb-1" src="assets/images/left-shapes.png" alt="" srcset="">
                             TEAM
                             <span class="text-dark">
                                 MEMBERS </span>
-                            <img class="image-fluid pb-1" src="assets/images/right-shapes.png" alt="" srcset="">
+                            <img class="img-fluid pb-1" src="assets/images/right-shapes.png" alt="" srcset="">
                         </p>
                     </div>
                     <p class="sample-works-text">We’re some creative people with powerful knowledge & awesome skills
@@ -463,7 +473,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="d-flex justify-content-end">
-                        <img src="assets/images/right-hovered.png" class="img-fluid" alt="">
+                        <img src="assets/images/right-hovered.png" class="img-fluid pt-2 hide-arrow" alt="">
                     </div>
                 </div>
             </div>
@@ -537,11 +547,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- KEY MARGIN -->
         <div class="row justify-content-center key-margin">
             <div>
-                <img class="image-fluid" id="quotes-image" src="assets/images/section-icon.png" alt="" srcset="">
+                <img class="img-fluid" id="quotes-image" src="assets/images/section-icon.png" alt="" srcset="">
             </div>
         </div>
+
+        <!-- QUOTES -->
         <div class="row justify-content-center quotes background-main-color text-center">
             <div class="col-md-12">
                 <button type="button" class="btn btn-primary">Alexis Simpson CEO & Developer</button>
@@ -557,6 +571,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- LOGOS -->
         <div class="row logos black-section justify-content-center ">
             <div class="col-md-1 md-offset-1 ">
                 <div class="d-flex align-items-center h-100">
@@ -707,64 +723,67 @@
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <div class="row footer black-section">
-            <div class="col-md-12">
-                <div class="d-flex justify-content-center ">
-                    <img src="assets//images/startuprr.png" class="image-fluid" alt="">
-                </div>
+    <!-- FOOTER -->
+    <div class="row footer black-section">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-center ">
+                <img src="assets//images/startuprr.png" class="img-fluid" alt="">
             </div>
-            <div class="col-md-12">
-                <div class="d-flex justify-content-center mt-5 mb-3">
-                    <img src="assets//images/social-icons-footer.png" class="image-fluid" alt="">
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="d-flex justify-content-center mt-5 mb-3">
+                <img src="assets//images/social-icons-footer.png"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="">
             </div>
-            <div class="col-md-12 image-sizing">
-                <div class="mt-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 m-5 bg-light position-absolute">
-                                <form action="/" method="POST">
-                                    <div class="form-row">
-                                        <div class="col-md-12 mt-3">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="" id=""
-                                                    placeholder="NAME">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="" id=""
-                                                    placeholder="Email Address">
-                                            </div>
-                                            <div class="form-group message">
-                                                <input type="text" class="form-control long-message message" name="" id=""
-                                                    placeholder="Message">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="submit"
-                                                    class="form-control btn btn-primary btn-block background-main-color"
-                                                    name="" id="">
-                                            </div>
+        </div>
+        <div class="col-md-12 image-sizing">
+            <div class="mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 m-5 bg-light position-absolute">
+                            <form action="/" method="POST">
+                                <div class="form-row">
+                                    <div class="col-md-12 mt-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="" id="" placeholder="NAME">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="" id=""
+                                                placeholder="Email Address">
+                                        </div>
+                                        <div class="form-group message">
+                                            <input type="text" class="form-control long-message message" name="" id=""
+                                                placeholder="Message">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit"
+                                                class="form-control btn btn-primary btn-block background-main-color"
+                                                name="" id="">
                                         </div>
                                     </div>
-                            </div>
+                                </div>
                         </div>
-                        </form>
                     </div>
-                    <img src="assets//images/map.png"
-                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                        alt="">
+                    </form>
                 </div>
+                <img src="assets//images/map.png"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="">
             </div>
         </div>
-        <div class="row justify-content-center black-section">
-            <div class="d-flex">
-                <img class="image-fluid position-relative" id="image-footer" src="assets/images/footerimage.png" alt=""
-                    srcset="">
-                <p class="text-white font-weight-bold justify-content-start mr-4">Copyright © 2014 Startuprr, All Rights
-                    Reserved.</p>
-            </div>
+    </div>
+    <div class="row justify-content-center black-section">
+        <div class="d-flex">
+            <img class="img-fluid position-relative" id="image-footer" src="assets/images/footerimage.png" alt=""
+                srcset="">
+            <p class="text-white font-weight-bold justify-content-start mr-4">Copyright © 2014 Startuprr, All
+                Rights
+                Reserved.</p>
         </div>
+    </div>
 
     </div>
 
