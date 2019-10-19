@@ -1,5 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway';
+  margin: 0px;
+  padding: 0px;
 }
 .white-dirty {
   background-color: #f9f9f9;
@@ -83,7 +85,7 @@ header {
 .subtitle {
   margin-top: 25px;
   color: black;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 /* HEADER */
@@ -100,6 +102,7 @@ header {
 #navbarNavAltMarkup .hov:hover {
   background: #00a99d;
   border-radius: 3px;
+  color: white;
 }
 
 /*WHAT WE OFFER */
@@ -111,7 +114,7 @@ header {
 
 .heading {
   font-size: 26px;
-  font-weight: 800;
+  font-weight: 1000;
 }
 .heading .what-we-offer {
   display: inline-block;
@@ -158,6 +161,10 @@ header {
   -webkit-border-radius: 70px;
   border-radius: 70px;
   margin: 0 auto;
+}
+
+.circle.background-main-color {
+  background-color: #00a99d;
 }
 
 .no-border {
@@ -398,6 +405,15 @@ header {
   top: 50%;
 }
 
+.cto-button {
+  background-color: #e4e4e4;
+  color: #6ac5be;
+}
+
+#cto-text {
+  color: #b9b9b9;
+}
+
 /* PRICE TABLES */
 .btn-price {
   bottom: 40px;
@@ -447,7 +463,7 @@ header {
   }
 
   #waiting-for {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .fancy {
@@ -535,7 +551,12 @@ header {
   .satisfied {
     font-size: 10px;
   }
-  .hide-arrow{
+  .hide-tag {
     display: none;
+  }
+  .subtitle {
+    margin-top: 25px;
+    color: black;
+    font-size: 26px;
   }
 }
