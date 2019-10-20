@@ -21,7 +21,7 @@ body {
 }
 #scroll-icon {
   margin-left: 258px;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 #background-startup > p::first-letter {
@@ -241,11 +241,11 @@ header {
 }
 .powerful span:before {
   right: 100%;
-  margin-right: 193px;
+  margin-right: 128px;
 }
 .powerful span:after {
   left: 100%;
-  margin-left: 56px;
+  margin-left: 46px;
 }
 
 .features-text {
@@ -399,6 +399,36 @@ header {
 .team-members button {
   font-size: 12px;
 }
+
+.team-members span:before,
+.team-members span:after {
+  margin-top: 10px;
+}
+
+.team-members span {
+  display: inline-block;
+  position: relative;
+}
+.team-members span:before,
+.team-members span:after {
+  margin-top: 5px;
+  content: '';
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
+  top: 13px;
+  width: 300px;
+}
+.team-members span:before {
+  right: 100%;
+  margin-right: 123px;
+}
+.team-members span:after {
+  left: 100%;
+  margin-left: 45px;
+}
+
 /* QUOTES */
 #quotes-image {
   position: relative;
@@ -417,6 +447,45 @@ header {
 /* PRICE TABLES */
 .btn-price {
   bottom: 40px;
+}
+
+.monthly {
+  font-size: 16px;
+}
+
+.price-amount {
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+
+.real-cheap span:before,
+.real-cheap span:after {
+  margin-top: 10px;
+}
+
+.real-cheap span {
+  display: inline-block;
+  position: relative;
+}
+.real-cheap span:before,
+.real-cheap span:after {
+  margin-top: 5px;
+  content: '';
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
+  top: 13px;
+  width: 300px;
+}
+.real-cheap span:before {
+  right: 100%;
+  margin-right: 208px;
+}
+.real-cheap span:after {
+  left: 100%;
+  margin-left: 45px;
 }
 
 /* UNIQUE */
