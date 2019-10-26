@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Raleway';
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.background-main-color {
+  background-color: #00a99d;
+}
+.white-dirty {
+  background-color: #f9f9f9;
+}
+
+.text-main-color {
+  color: #00a99d;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.p-18 {
+  font-size: 18px;
+}
+
+.p-14 {
+  font-size: 14px;
+}
+
+.p-12 {
+  font-size: 12px;
+}
+.p-26 {
+  font-size: 26px;
+}
+
+.p-80 {
+  font-size: 80px;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+header {
+  height: 750px;
+  background-color: #8a8a8a;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.no-border {
+  border: 0px;
+}
+
+.black-container {
+  background-color: #383838;
+  color: #5e5e5e;
+}
+
+/* HEADER */
+.subtitle {
+  margin-top: 25px;
+  font-size: 26px;
+}
+
+.fancy {
+  line-height: 1.1;
+  margin-left: 143px;
+}
+.fancy .home-page {
+  display: inline-block;
+  position: relative;
+}
+.fancy .home-page::before,
+.fancy .home-page::after {
+  margin-top: 7px;
+  content: '';
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  top: 5px;
+  width: 130px;
+}
+.fancy .home-page::before {
+  right: 100%;
+  margin-right: 52px;
+}
+.fancy .home-page::after {
+  left: 100%;
+  margin-left: 55px;
+}
+
+.home-text {
+  color: #383838;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*='col-'] {
+    width: 100%;
+  }
+}
+
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 992px) {
+
+}
+/* Extra small devices "Tabs" */
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 1920px) {
+  
+}

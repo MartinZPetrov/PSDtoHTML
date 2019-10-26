@@ -56,6 +56,11 @@ header {
   color: #5e5e5e;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 /* HEADER  */
 .home {
   background-color: #8a8a8a;
@@ -139,10 +144,8 @@ header {
 
 .offer-image-size {
   position: relative;
-  width: 45%;
-  height: 45%;
-  top: 27%;
-  left: 28%;
+  top: 31%;
+  left: 31%;
 }
 
 #square {
@@ -152,7 +155,7 @@ header {
   transform: rotate(45deg);
   z-index: 1;
 }
-#key-image {
+.key-image {
   position: relative;
   top: 22%;
   left: 27%;
@@ -270,8 +273,8 @@ header {
   margin-top: -27px;
 }
 .form-footer {
-  left:8%;
-  top:15%;
+  left: 8%;
+  top: 15%;
 }
 
 /* MOBILE */
@@ -317,10 +320,252 @@ header {
   }
 
   .hide-element {
-    display: none;
+    display: none !important;
   }
   /* TEAM MEMBERS */
   .row-team-members {
     margin-top: 40px !important;
   }
+}
+/* sprite */
+.sprite {
+  background-image: url(/assets/images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-Preview {
+  width: 1920px;
+  height: 7301px;
+  background-position: -5px -5px;
+}
+
+.sprite-active {
+  width: 17px;
+  height: 18px;
+  background-position: -1935px -5px;
+}
+
+.sprite-bg {
+  width: 30px;
+  height: 30px;
+  background-position: -1962px -5px;
+}
+
+.sprite-bg-rigth {
+  width: 30px;
+  height: 30px;
+  background-position: -2002px -5px;
+}
+
+.sprite-darkdaimond {
+  width: 13px;
+  height: 13px;
+  background-position: -2042px -5px;
+}
+
+.sprite-footerimage {
+  width: 54px;
+  height: 54px;
+  background-position: -2065px -5px;
+}
+
+.sprite-girdle {
+  width: 38px;
+  height: 37px;
+  background-position: -2129px -5px;
+}
+
+.sprite-greendiamond {
+  width: 13px;
+  height: 13px;
+  background-position: -2177px -5px;
+}
+
+.sprite-greenmonitor {
+  width: 96px;
+  height: 37px;
+  background-position: -2200px -5px;
+}
+
+.sprite-greenpuzzle {
+  width: 82px;
+  height: 41px;
+  background-position: -2252px -5px;
+}
+
+.sprite-greenstar {
+  width: 92px;
+  height: 39px;
+  background-position: -2297px -5px;
+}
+
+.sprite-iconbriefcase {
+  width: 54px;
+  height: 54px;
+  background-position: -2347px -5px;
+}
+
+.sprite-iconclean {
+  width: 80px;
+  height: 70px;
+  background-position: -2411px -5px;
+}
+
+.sprite-iconcustomization {
+  width: 80px;
+  height: 70px;
+  background-position: -2461px -5px;
+}
+
+.sprite-icongirdle {
+  width: 80px;
+  height: 70px;
+  background-position: -2511px -5px;
+}
+
+.sprite-iconresponsive {
+  width: 80px;
+  height: 70px;
+  background-position: -2561px -5px;
+}
+
+.sprite-iconthebest {
+  width: 80px;
+  height: 70px;
+  background-position: -2611px -5px;
+}
+
+.sprite-iconunlimited {
+  width: 80px;
+  height: 70px;
+  background-position: -2661px -5px;
+}
+
+.sprite-item1 {
+  width: 120px;
+  height: 151px;
+  background-position: -2711px -5px;
+}
+
+.sprite-item2 {
+  width: 140px;
+  height: 151px;
+  background-position: -2841px -5px;
+}
+
+.sprite-item3 {
+  width: 146px;
+  height: 151px;
+  background-position: -2991px -5px;
+}
+
+.sprite-item4 {
+  width: 146px;
+  height: 151px;
+  background-position: -3147px -5px;
+}
+
+.sprite-item5 {
+  width: 120px;
+  height: 151px;
+  background-position: -3303px -5px;
+}
+
+.sprite-item6 {
+  width: 120px;
+  height: 151px;
+  background-position: -3433px -5px;
+}
+
+.sprite-key {
+  width: 22px;
+  height: 21px;
+  background-position: -3563px -5px;
+}
+
+.sprite-left {
+  width: 30px;
+  height: 30px;
+  background-position: -3595px -5px;
+}
+
+.sprite-left-arrow-log {
+  width: 30px;
+  height: 30px;
+  background-position: -3635px -5px;
+}
+
+.sprite-link {
+  width: 40px;
+  height: 40px;
+  background-position: -3713px -5px;
+}
+
+.sprite-magnifier-hovered {
+  width: 40px;
+  height: 40px;
+  background-position: -4043px -5px;
+}
+
+
+.sprite-monitor {
+  width: 38px;
+  height: 33px;
+  background-position: -1935px -55px;
+}
+
+.sprite-puzzle {
+  width: 31px;
+  height: 37px;
+  background-position: -4093px -5px;
+}
+
+.sprite-right-arrow-logo {
+  width: 30px;
+  height: 30px;
+  background-position: -1983px -52px;
+}
+
+.sprite-right-hovered {
+  width: 30px;
+  height: 30px;
+  background-position: -2023px -52px;
+}
+
+
+.sprite-sandtime {
+  width: 15px;
+  height: 21px;
+  background-position: -2167px -52px;
+}
+
+.sprite-scroll-icon {
+  width: 58px;
+  height: 57px;
+  background-position: -3563px -52px;
+}
+
+.sprite-section-icon {
+  width: 54px;
+  height: 54px;
+  background-position: -3631px -52px;
+}
+
+.sprite-social-icons {
+  width: 160px;
+  height: 40px;
+  background-position: -2775px -175px;
+}
+
+.sprite-social-icons-footer {
+  width: 544px;
+  height: 40px;
+  background-position: -1935px -116px;
+}
+
+.sprite-startuprr {
+  width: 157px;
+  height: 42px;
+  background-position: -2945px -175px;
 }
